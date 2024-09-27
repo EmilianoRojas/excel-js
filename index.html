@@ -21,11 +21,30 @@
         const ROWS = 3
         const COLUMNS = 10
 
-        
+        const range = lenght => Array.from({ length }, (_, i) => i)
+
+        const renderSpreadSheet = () => {
+            const $table = $('table')
+            const $head = $('thead')
+            const $body = $('tbody')
+
+            const headerHTML = `<tr>
+
+            </tr>`
+
+            const bodyHTML = `<tr>
+                
+            </tr>`
+        }
 
     </script>
 </head>
 <body>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Microsoft_Excel_2013-2019_logo.svg/881px-Microsoft_Excel_2013-2019_logo.svg.png" alt="" srcset="">
+
+    <table>
+        <thead></thead>
+        <tbody></tbody>
+    </table>
 </body>
 </html>
